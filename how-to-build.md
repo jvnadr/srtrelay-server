@@ -79,7 +79,7 @@ make</span></pre>
 <pre>
 
 <span style="font-family:Courier New,Courier,monospace">#!/bin/bash
-/home/ubuntu/srt/srt-live-transmit -st:yes &quot;srt://0.0.0.0:5005?mode=listener&amp;lossmaxttl=40&amp;latency=2000&quot; &quot;srt://0.0.0.0:5006?mode=listener&quot; 1&gt; /home/ubuntu/srt-output1.log 2&gt; /home/ubuntu/srt-error1.log &amp; </span></pre>
+/home/ubuntu/srt/srt-live-transmit -st:yes &quot;srt://0.0.0.0:5005?mode=listener&amp;lossmaxttl=40&amp;latency=150&quot; &quot;srt://0.0.0.0:5006?mode=listener&quot; 1&gt; /home/ubuntu/srt-output1.log 2&gt; /home/ubuntu/srt-error1.log &amp; </span></pre>
 
 <p>&nbsp;</p>
 
