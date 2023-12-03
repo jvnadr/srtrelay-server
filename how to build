@@ -1,0 +1,10 @@
+We then want to update and upgrade our linux distribution using the following commands
+
+apt-get update
+apt-get dist-upgrade
+
+Now that is done, we want to install the dependencies for our relays.
+
+apt-get install nano build-essential git tcl libssl1.0-dev nodejs npm usb-modeswitch libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev cmake joe screen
+
+Next check and clear out the EC2 instance firewalls prior to building the applications. 
