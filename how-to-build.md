@@ -5,12 +5,17 @@
 apt-get dist-upgrade</span></pre>
 
 <p>Now that is done, we want to install the dependencies for our relays.</p>
-
+<p>&nbsp;</p>
+<p>UBUNTU 18</p>
 <pre>
 <span style="font-family:Courier New,Courier,monospace">apt-get install nano build-essential git tcl libssl1.0-dev nodejs npm usb-modeswitch libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev cmake joe screen</span></pre>
 
 <p>&nbsp;</p>
+<p>UBUNTU 20</p>
+<pre>
+<span style="font-family:Courier New,Courier,monospace">apt-get install nano build-essential git tcl libssl-dev nodejs npm usb-modeswitch libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev cmake joe screen</span></pre>
 
+<p>&nbsp;</p>
 <hr />
 <p><strong>BE SURE TO CLEAR IP TABLES</strong></p>
 
@@ -57,7 +62,7 @@ iptables --flush</span></pre>
 
 <pre>
 <span style="font-family:Courier New,Courier,monospace">git clone https://github.com/jvnadr/srtrelay-server.git
-cd srt
+cd srtrelay-server
 ./configure
 make</span></pre>
 
